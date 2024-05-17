@@ -1,0 +1,28 @@
+.start-screen {
+  background-image: url('https://wallpapercave.com/wp/BQYb4Cl.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px
+}
+
+.start-screen button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ffcc00; /* Gold color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  margin-top: 60px;
+}
+
+.start-screen button:hover {
+  background-color: #ffd700; /* Lighter gold on hover */
+}
