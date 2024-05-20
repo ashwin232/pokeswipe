@@ -4,9 +4,13 @@ import './StartScreen.css';
 const StartScreen = ({ onStart }) => {
   return (
     <div className="start-screen">
-      <button onClick={onStart}>Start Pokeswiper</button>
+      <h1>Welcome to PokeSwiper</h1>
+      <button className="start-button" onClick={onStart}>
+        Start
+      </button>
     </div>
   );
-}
+};
+
 
 export default StartScreen;
